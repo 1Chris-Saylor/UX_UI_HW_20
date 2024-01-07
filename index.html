@@ -1,18 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UX/UI Homework 20 — Chris!!!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    My Page!!!
+</head>
+<body>
+    <!-- Navigation Section (Bootstrap's col system) -->
+    <div class="container">
+        <div class="row">
+            <div class="col" style="width: 450px;">Column 1</div>
+            <div class="col" style="width: 450px;">Column 2</div>
+            <div class="col" style="width: 450px;">Column 3</div>
+        </div>
+    </div>
+
+    <!-- Introduction Section (Bootstrap's col system) -->
+    <div class="container">
+        <div class="row">
+            <div class="col" style="width: 450px;">Column 1</div>
+            <div class="col" style="width: 450px;">Column 2</div>
+            <div class="col" style="width: 450px;">Column 3</div>
+        </div>
+    </div>
+
+    <!-- Research Section (Bootstrap's Card component) -->
+    <!-- I used a component called Card -->
+    <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+
+    <!-- Problem Statement Section (Bootstrap's Jumbotron component) -->
+    <!-- I used a component called Jumbotron -->
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+    </div>
+
+    <!-- Iteration Section (Bootstrap's Card component) -->
+    <!-- I used a component called Card -->
+    <div id="accordion">
+        <!-- Card 1 -->
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Collapsible Group Item #1
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <!-- Content for Card 1 -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Collapsible Group Item #2
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <!-- Content for Card 2 -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Collapsible Group Item #3
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <!-- Content for Card 3 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Prototype Section (Bootstrap's col system) -->
+    <!-- Bootstrap's col system -->
+    <div class="container">
+        <div class="row">
+            <div class="col" style="width: 450px;">Column 1</div>
+            <div class="col" style="width: 450px;">Column 2</div>
+            <div class="col" style="width: 450px;">Column 3</div>
+        </div>
+    </div>
 
     <!-- Optional: Add Bootstrap JS script -->
     <!-- Note: Make sure to include the Bootstrap JS script after including the Bootstrap CSS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-  </body>
-</html>
+</
